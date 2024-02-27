@@ -4,91 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-left.css' rel='stylesheet'>
     <title>Hounter</title>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <div class="box">
-            <div class="navbar">
-                <div class="logo">
-                    <img class="img" src="icons/logo.png" />
-                    <div class="text-wrapper">Hounter</div>
-                </div>
-                <div class="frame">
-                    <div class="div">
-                        <div class="text-wrapper-2">About Us</div>
-                    </div>
-                    <div class="div">
-                        <div class="text-wrapper-2">Article</div>
-                    </div>
-                    <div class="div">
-                        <div class="text-wrapper-2">Property</div>
-                        <img class="eva-arrow-ios" src="icons/eva_arrow-ios-forward-fill.png" />
-                    </div>
-                </div>
-                <div class="div-wrapper">
-                    <div class="text-wrapper-3">Sign Up!</div>
-                </div>
-                <svg width="441" height="481" viewBox="0 0 441 481" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.3" filter="url(#filter0_f_4_18)">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M298.209 155.001C287.173 189.669 261.914 216.19 239.037 244.462C219.326 268.821 198.32 290.535 173.292 309.373C145.414 330.356 119.122 359.558 84.2732 360.946C49.3115 362.339 19.9507 336.407 -8.93251 316.634C-36.0888 298.044 -55.4251 272.427 -78.8344 249.286C-110.874 217.612 -166.167 199.642 -172.434 155.001C-178.493 111.845 -134.511 78.3497 -107.647 44.0607C-83.8375 13.6712 -57.2616 -13.2453 -24.5624 -33.7378C9.01465 -54.7805 45.0816 -81.9806 84.2732 -76.2154C123.401 -70.4596 140.038 -20.5008 176.088 -4.2213C218.116 14.7576 280.755 -11.4202 308.836 25.1917C335.703 60.222 311.604 112.919 298.209 155.001Z"
-                            fill="#82F7FF" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_4_18" x="-293" y="-197" width="734" height="678" filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_4_18" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
-        </div>
-    </header>
     <main class="main">
-        <section class="banner">
-            <h1 class="banner-header"> Find The Place To Live Your Dreams Easily Here</h1>
-            <h6 class="banner-subheader">Everything you need about finding your place to live will be here, where it
-                will be easier for you</h3>
-                <div class="bunner-serch-zone">
-                    <i class="map point"></i>
-                    <label for="ban-input">Search for the location you want!</label>
-                    <input class="banner-search" id="ban-input" type="text">
-                    <button class="banner-search-button">Search</button>
+        <header>
+            <section class="banner">
+                <div class="banner-head">
+                    <img class="logo" src="icons/logo.png" alt="Hounter">
+                    <h4 class="logo-text">Hounter</h4>
                 </div>
-                <p class="bunner-partners">Our Partnership</p>
-                <div class="bunner-partners-images">
-                    <img class="bunner-partners-image" src="icons/taverlovka.png" width="75">
-                    <img class="bunner-partners-image" src="icons/tiket.png" width="75">
-                    <img class="bunner-partners-image" src="icons/airbnb.png" width="75">
-                    <img class="bunner-partners-image" src="icons/trip.png" width="75">
+                <div class="banner-main">
+                    <h1 class="banner-header"> find the place to live your dreams easily here</h1>
+                    <h6 class="banner-subheader">Everything you need about finding your place to live will be here,
+                        where it will be easier for you</h3>
+                        <div class="bunner-search">
+                            <i class="bunner-search-icon fa-solid fa-location-dot fa-lg"></i>
+                            <input class="banner-search-input" placeholder="Search for the location you want!"
+                                type="text">
+                            <button class="banner-search-button">Search
+                                <i class="fa-solid fa-angle-right" style="padding-left: 5px;"></i>
+                            </button>
+                        </div>
+                        <p class="bunner-partners">Our Partnership</p>
+                        <div class="bunner-partners-images">
+                            <img class="bunner-partners-image" src="icons/traveloka_logo 2.png">
+                            <img class="bunner-partners-image" src="icons/traveloka_logo 3.png">
+                            <img class="bunner-partners-image" src="icons/traveloka_logo 4.png">
+                            <img class="bunner-partners-image" src="icons/traveloka_logo 5.png">
+                        </div>
                 </div>
-        </section>
-        <aside class="banner-side">
-            <img class="banner-side-img" src="icons/sign_up_frame.png">
-            <div class="banner-info">
-                <div class="banner-info-user">
-                    <img class="banner-info-user-image" src="icons/avatar1.jpeg">
-                    <h6 class="banner-info-user-head">1K+ People</h6>
-                    <p class="banner-info-user-text">Successfully Getting Home</p>
+            </section>
+            <section class="banner-side">
+                <nav class="header-nav">
+                    <div class="header-nav-links">
+                        <a class="header-link" href="#">About Us</a>
+                        <a class="header-link" href="#">Article</a>
+                        <a class="header-link" href="#">Property</a>
+                    </div>
+                    <button class="sign-up-btn">Sign up!</button>
+                </nav>
+                <div class="banner-side-info">
+                    <div class="banner-side-info-element" id="users">
+                        <img class="banner-side-info-users-image" src="icons/Group 7.png">
+                        <div class="banner-side-info-element-text">
+                            <h6 class="banner-side-info-element-head">1K+ People</h6>
+                            <p class="banner-side-info-element-t">Successfully Getting Home</p>
+                        </div>
+                    </div>
+                    <div class="banner-side-info-element" id="houeses">
+                        <img class="banner-side-info-houeses-image" src="icons/Rectangle 12.png">
+                        <div class="banner-side-info-element-text">
+                            <h6 class="banner-side-info-element-head">56 Houses</h6>
+                            <p class="banner-side-info-element-t">Sold Monthly</p>
+                        </div>
+                    </div>
+                    <div class="banner-side-info-element" id="new-users">
+                        <img class="banner-side-info-new-users-image" src="icons/Ellipse 6.png">
+                        <div class="banner-side-info-element-text">
+                            <h6 class="banner-side-info-element-head">4K+</h6>
+                            <p class="banner-side-info-element-t">People Looking for New Homes</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="banner-info-houeses">
-                    <img class="banner-info-houeses-image" src="icons/avatar2.jpeg">
-                    <h6 class="banner-info-houeses-head">56 Houses</h6>
-                    <p class="banner-info-houeses-text">Sold Monthly</p>
-                </div>
-                <div class="banner-info-new-user">
-                    <img class="banner-info-new-user-image" src="icons/avatar3.jpeg">
-                    <h6 class="banner-info-new-user-head">4K+</h6>
-                    <p class="banner-info-new-user-text">People Looking for New Homes</p>
-                </div>
-            </div>
-        </aside>
+            </section>
+        </header>
 
         <section class="recommendation">
             <div class="recommendation-control">
@@ -97,132 +85,154 @@
                     <h4 class="recommendation-control-text-name">Featured House</h4>
                 </div>
                 <div class="recommendation-control-pannel">
-                    <button class="recommendation-control-pannel-select-button">House</button>
+                    <button class="recommendation-control-pannel-select-button"><i
+                            class="fa-solid fa-house"></i>House</button>
                     <button class="recommendation-control-pannel-select-button">Villa</button>
                     <button class="recommendation-control-pannel-select-button">Apartament</button>
-                    <button class="recommendation-control-pannel-button">left</button>
-                    <button class="recommendation-control-pannel-button">right</button>
+                </div>
+                <div class="recommendation-control-pannel">
+                    <button class="recommendation-control-pannel-button">
+                        <i class="gg-chevron-left"></i>
+                    </button>
+                    <button class="recommendation-control-pannel-button">
+                        <i class="gg-chevron-right"></i>
+                    </button>
                 </div>
             </div>
-
 
             <div class="recommendation-body">
                 <div class="recommendation-body-proposal">
-                    <img class="recommendation-body-proposal-image" src="icons/Roselands.jpeg">
+                    <img class="recommendation-body-proposal-image" src="icons/Roselands House.png">
                     <p class="recommendation-body-proposal-name"><b>Roselands House</b></p>
                     <p class="recommendation-body-proposal-price">$ 35.000.000</p>
                     <div class="recommendation-body-proposal-dealer">
-                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/avatar3.jpeg">
-                        <p class="recommendation-body-proposal-dealer-name"><b>Dianne Russell</b></p>
-                        <p class="recommendation-body-proposal-dealer-place">Manchester, Kentucky</p>
+                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/Dianne Russell.png">
+                        <div class="recommendation-body-proposal-dealer-text">
+                            <p class="recommendation-body-proposal-dealer-name"><b>Dianne Russell</b></p>
+                            <p class="recommendation-body-proposal-dealer-place">Manchester, Kentucky</p>
+                        </div>
                     </div>
                 </div>
                 <div class="recommendation-body-proposal">
-                    <img class="recommendation-body-proposal-image" src="icons/Woodlandside.jpeg">
+                    <img class="recommendation-body-proposal-image" src="icons/Woodlandside.png">
                     <p class="recommendation-body-proposal-name"><b>Woodlandside</b></p>
                     <p class="recommendation-body-proposal-price">$ 20.000.000</p>
                     <div class="recommendation-body-proposal-dealer">
-                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/Robert.jpeg">
-                        <p class="recommendation-body-proposal-dealer-name"><b>Robert Fox</b></p>
-                        <p class="recommendation-body-proposal-dealer-place">Dr. San Jose, South Dakota</p>
+                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/Robert Fox.png">
+                        <div class="recommendation-body-proposal-dealer-text">
+                            <p class="recommendation-body-proposal-dealer-name"><b>Robert Fox</b></p>
+                            <p class="recommendation-body-proposal-dealer-place">Dr. San Jose, South Dakota</p>
+                        </div>
                     </div>
                 </div>
                 <div class="recommendation-body-proposal">
-                    <img class="recommendation-body-proposal-image" src="icons/Lighthouse.jpeg">
+                    <img class="recommendation-body-proposal-image" src="icons/The Old Lighthouse.png">
                     <p class="recommendation-body-proposal-name"><b>The Old Lighthouse</b></p>
                     <p class="recommendation-body-proposal-price">$ 44.000.000</p>
                     <div class="recommendation-body-proposal-dealer">
-                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/ronald.jpeg">
-                        <p class="recommendation-body-proposal-dealer-name"><b>Ronald Richards</b></p>
-                        <p class="recommendation-body-proposal-dealer-place">Santa Ana, Illinois</p>
+                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/Ronald Richards.png">
+                        <div class="recommendation-body-proposal-dealer-text">
+                            <p class="recommendation-body-proposal-dealer-name"><b>Ronald Richards</b></p>
+                            <p class="recommendation-body-proposal-dealer-place">Santa Ana, Illinois</p>
+                        </div>
                     </div>
                 </div>
                 <div class="recommendation-body-proposal">
-                    <img class="recommendation-body-proposal-image" src="icons/cosmo.jpeg">
+                    <img class="recommendation-body-proposal-image" src="icons/Cosmo's House.png">
                     <p class="recommendation-body-proposal-name"><b>Cosmo's House</b></p>
                     <p class="recommendation-body-proposal-price">$ 22.000.000</p>
                     <div class="recommendation-body-proposal-dealer">
-                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/jenny.jpeg">
-                        <p class="recommendation-body-proposal-dealer-name"><b>Jenny Wilson</b></p>
-                        <p class="recommendation-body-proposal-dealer-place">Preston Rd. Inglewood, Maine 98380</p>
+                        <img class="recommendation-body-proposal-dealer-avatar" src="icons/Jenny Wilson.png">
+                        <div class="recommendation-body-proposal-dealer-text">
+                            <p class="recommendation-body-proposal-dealer-name"><b>Jenny Wilson</b></p>
+                            <p class="recommendation-body-proposal-dealer-place">Preston Rd. Inglewood, Maine 98380</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="sell">
-            <div class="sell-info">
-                <p class="sell-info-partname">Ready to Sell!</p>
-                <h4 class="sell-info-head">Let’s tour and see our house!</h4>
-                <p class="sell-info-description">Houses recommended by our partners that have been curated to
-                    become the home of your dreams!</p>
-                <p class="sell-info-detext">House Detail</p>
-                <div class="sell-info-details">
-                    <div class="sell-info-detail">
-                        <i class="sell-info-detail-icon"></i>
-                        <p class="sell-info-detail-text">4 Bedrooms</p>
-                    </div>
-                    <div class="sell-info-details">
-                        <div class="sell-info-detail">
-                            <i class="sell-info-detail-icon"></i>
 
-                            <p class="sell-info-detail-text">2 Bathrooms</p>
+        <section class="readytosell">
+            <div class="readytosell-info">
+                <p class="recommendation-control-text-zonename">Ready to Sell!</p>
+                <h4 class="readytosell-info-head">Let’s tour and see our house!</h4>
+                <p class="readytosell-info-description">Houses recommended by our partners that have been curated to
+                    become the home of your dreams!</p>
+                <p class="readytosell-info-detext">House Detail</p>
+                <div class="readytosell-info-details">
+                    <div class="readytosell-info-detail">
+                        <i class="readytosell-info-detail-icon"></i>
+                        <p class="readytosell-info-detail-text">4 Bedrooms</p>
+                    </div>
+                    <div class="readytosell-info-detail">
+                        <div class="readytosell-info-detail">
+                            <i class="readytosell-info-detail-icon"></i>
+                            <p class="readytosell-info-detail-text">2 Bathrooms</p>
                         </div>
                     </div>
-                    <div class="sell-info-details">
-                        <div class="sell-info-detail">
-                            <i class="sell-info-detail-icon"></i>
-                            <p class="sell-info-detail-text">1 Carport</p>
+                    <div class="readytosell-info-detail">
+                        <div class="readytosell-info-detail">
+                            <i class="readytosell-info-detail-icon"></i>
+                            <p class="readytosell-info-detail-text">1 Carport</p>
                         </div>
                     </div>
-                    <div class="sell-info-details">
-                        <div class="sell-info-detail">
-                            <i class="sell-info-detail-icon"></i>
-                            <p class="sell-info-detail-text">2 Floors</p>
+                    <div class="readytosell-info-detail">
+                        <div class="readytosell-info-detail">
+                            <i class="readytosell-info-detail-icon"></i>
+                            <p class="readytosell-info-detail-text">2 Floors</p>
                         </div>
                     </div>
                 </div>
-                <div class="sell-info-dealer">
-                    <img class="sell-info-dealer-avatar" src="icons/avatar3.jpeg">
-                    <p class="sell-info-dealer-name"><b>Dianne Russell</b></p>
-                    <p class="sell-info-dealer-post">Manager Director</p>
-                    <button class="sell-info-dealer-contact">Contact Now</button>
+                <div class="readytosell-info-dealer">
+                    <img class="readytosell-info-dealer-avatar" src="icons/Dianne Russell.png">
+                    <div class="recommendation-body-proposal-dealer-text">
+                        <p class="recommendation-body-proposal-dealer-name"><b>Dianne Russell</b></p>
+                        <p class="readytosell-info-dealer-post">Manager Director</p>
+                    </div>
+                    <button class="readytosell-info-dealer-contact">Contact Now</button>
                 </div>
             </div>
-            <div class="sell-play">
-                <video class="sell-play-video" controls>
-                    <source src="https://www.youtube.com/watch?v=Xry_g0Vp5MY" type="video" />
+            <div class="readytosell-play">
+                <video class="readytosell-play-video" controls>
+                    <source src="video/shreksophone 10 min.mp4" type="video/mp4" />
                 </video>
-                <img class="sell-info-play-photo" src="icons/sofa.jpeg">
-                <img class="sell-info-play-photo" src="icons/pictures.jpeg">
-                <img class="sell-info-play-photo" src="icons/armchair.jpeg">
+                <img class="readytosell-info-play-foto" src="icons/Rectangle 18.png">
+                <img class="readytosell-info-play-foto" src="icons/Rectangle 19.png">
+                <img class="readytosell-info-play-foto" src="icons/Rectangle 20.png">
             </div>
         </section>
         <section class="review">
-            <p class="review-partname">See Our Review</p>
+            <p class="recommendation-control-text-zonename">See Our Review</p>
             <h3 class="review-head">What Our User Say About Us</h3>
             <div class="review-content">
                 <div class="review-content-element">
-                    <img class="review-content-element-image" src="icons/pink.jpeg">
+                    <img class="review-content-element-image" src="icons/Rect 21.png">
                     <div class="review-content-element-data">
                         <h4 class="review-content-element-data-head">
                             My house sold out fast!
                         </h4>
-                        <p class="review-content-element-data-text">I was finally able to sell my house quickly through
-                            Hounter by immediately setting me up with people who wanted my house. I also do not get a
-                            discount from the sale of my house. Awesome!</p>
-                        <div class="review-content-element-data-dealer">
-                            <img class="review-content-element-data-avatar" src="icons/cortney.jpeg">
-                            <p class="review-content-element-data-name"><b>Courtney Henry</b></p>
-                            <p class="review-content-element-data-post">CEO Andarafish</p>
-                            <img class="review-content-element-data-star" src="icons/image.img">
-                            <div class="review-content-element-data-score">4.3</div>
+                        <p class="review-content-element-data-text">
+                            I was finally able to sell my house quickly through Hounter by
+                            immediately setting me up with people who wanted my house. I
+                            also do not get a discount from the sale of my house. Awesome!
+                        </p>
+                        <div class="review-content-element-data-bottom">
+                            <div class="review-content-element-data-dealer">
+                                <img class="review-content-element-data-avatar" src="icons/Courtney Henry.png">
+                                <div class="recommendation-body-proposal-dealer-text">
+                                    <p class="review-content-element-data-name"><b>Courtney Henry</b></p>
+                                    <p class="review-content-element-data-post">CEO Andarafish</p>
+                                </div>
+                            </div>
+                            <div class="review-content-element-score">
+                                <img class="review-content-element-data-star" src="icons/bx_bxs-star.png">
+                                <div class="review-content-element-data-score">4.3</div>
+                            </div>
                         </div>
-
-
                     </div>
                 </div>
                 <div class="review-content-element">
-                    <img class="review-content-element-image" src="icons/modern.jpeg">
+                    <img class="review-content-element-image" src="icons/Rectangle 21(1).png">
                     <div class="review-content-element-data">
                         <h4 class="review-content-element-data-head">
                             Best! I got the house I wanted through Hounter
@@ -231,18 +241,23 @@
                             Through this website I can get a house with the type and specifications I want very easily,
                             without a complicated process to be able to find information on the house we want.
                         </p>
-                        <div class="review-content-element-data-dealer">
-                            <img class="review-content-element-data-avatar" src="icons/avatar3.jpeg">
-                            <p class="review-content-element-data-name"><b>Dianne Russell</b></p>
-                            <p class="review-content-element-data-post">Manager Director</p>
-                            <img class="review-content-element-data-star" src="icons/image.img">
-                            <div class="review-content-element-data-score">4.6</div>
+                        <div class="review-content-element-data-bottom">
+                            <div class="review-content-element-data-dealer">
+                                <img class="review-content-element-data-avatar" src="icons/Dianne Russell.png">
+                                <div class="recommendation-body-proposal-dealer-text">
+                                    <p class="review-content-element-data-name"><b>Dianne Russell</b></p>
+                                    <p class="review-content-element-data-post">Manager Director</p>
+                                </div>
+                            </div>
+                            <div class="review-content-element-score">
+                                <img class="review-content-element-data-star" src="icons/bx_bxs-star.png">
+                                <div class="review-content-element-data-score">4.6</div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="review-content-element">
-                    <img class="review-content-element-image" src="icons/blue.jpeg">
+                    <img class="review-content-element-image" src="icons/Rectangle 21(5).png">
                     <div class="review-content-element-data">
                         <h4 class="review-content-element-data-head">
                             Through the Hounter, I can get a house for my self
@@ -251,120 +266,159 @@
                             By looking for information about what kind of house we want, we managed to get the house we
                             wanted very quickly, and directly connected with the seller to be able to ask about the
                             details, very helpful! </p>
-                        <div class="review-content-element-data-dealer">
-                            <img class="review-content-element-data-avatar" src="icons/avatar1.jpeg">
-                            <p class="review-content-element-data-name"><b>Esther Howard</b></p>
-                            <p class="review-content-element-data-post">Head of Marketing</p>
-                            <img class="review-content-element-data-star" src="icons/image.img">
-                            <div class="review-content-element-data-score">4.6</div>
+                        <div class="review-content-element-data-bottom">
+                            <div class="review-content-element-data-dealer">
+                                <img class="review-content-element-data-avatar" src="icons/Esther Howard.png">
+                                <div class="recommendation-body-proposal-dealer-text">
+                                    <p class="review-content-element-data-name"><b>Esther Howard</b></p>
+                                    <p class="review-content-element-data-post">Head of Marketing</p>
+                                </div>
+                            </div>
+                            <div class="review-content-element-score">
+                                <img class="review-content-element-data-star" src="icons/bx_bxs-star.png">
+                                <div class="review-content-element-data-score">4.6</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="review-slider"></div>
         </section>
-        <section class="more">
-            <div>
-                <h1 class="more-head">See Tips And Trick From Our Partnership Find Out More About Selling And Buying
-                    Homes</h1>
-                <button class="more-button">More Artikel</button>
 
-                <div>
-                    <img class="more-content-element-image" src="icons/livingroom.jpeg" alt="Living Room">
-                    <h2 class="more-content-element-text">The Things We Need To Check When We Want To Buy A House</h2>
-                    <p class="more-content-element-time">4 min read | 25 Apr 2021</p>
-                    <img class="more-content-element-data-avatar" src="icons/avatar3.jpeg">
-                    <p class="more-content-element-data-name"><b>Dianne Russell</b></p>
-                </div>
-
-                <div>
-                    <img class="more-content-element-image" src="/icons/front-yard.jpeg" alt="Front Yard">
-                    <h2 class="more-content-element-text">7 Ways To Distinguish The Quality Of The House We Want To Buy
-                    </h2>
-                    <p class="more-content-element-time">6 min read | 24 Apr 2021</p>
-                    <img class="more-content-element-data-avatar" src="icons/henry.jpeg">
-                    <p class="more-content-element-data-name"><b>Courtney Henry</b></p>
-                </div>
-
-                <div>
-                    <img class="more-content-element-image" src="icons/house-design.jpeg" alt="House Design">
-                    <h2 class="more-content-element-text">The Best Way To Know The Quality Of The House We Want To Buy
-                    </h2>
-                    <p class="more-content-element-time">2 min read | 24 Apr 2021</p>
-                    <img class="more-content-element-data-avatar" src="icons/darlene.jpeg">
-                    <p class="more-content-element-data-name"><b>Darlene Robertson</b></p>
-                </div>
-
-                <div>
-                    <img src="icons/modern-home.jpeg" alt="Modern Home">
-                    <h2 class="more-content-element-text">12 Things To Know Before Buying A House
-                        Want to buy a house but are unsure about what we should know, here I will try to explain what we
-                        should know and check when we want to buy a house</h2>
-                    <p class="more-content-element-time">8 min read | 25 Apr 2021</p>
-                    <img class="more-content-element-data-avatar" src="icons/cameron.jpeg">
-                    <p class="more-content-element-data-name"><b>Cameron Williamson</b></p>
-                </div>
-            </div>
-        </section>
-        <section class="articles">
-            <div class="articles-header">
-                <h2>Find Out More About Selling And Buying Homes</h2>
-                <a href="#" class="articles-link">More Articles</a>
-            </div>
-            <div class="articles-list">
-                <article class="article-entry">
-                    <img class="article-image" src="path_to_image.jpg" alt="Article Description">
-                    <div class="article-info">
-                        <h3 class="article-title">Article Title</h3>
-                        <p class="article-author">Author Name</p>
-                        <p class="article-date">Publication Date</p>
+        <section class="tips">
+            <p class="recommendation-control-text-zonename">See tips and trick from our partnership</p>
+            <h4 class="review-head">Find out more about<br> selling and buying homes</h4>
+            <button class="readytosell-info-dealer-contact">More Atrike</button>
+            <div class="tips-sect">
+                <div class="tips-tricks">
+                    <div class="tips-trick">
+                        <img class="tips-trick-image" src="icons/Rectangle 22.png">
+                        <div class="tips-trick-info">
+                            <div class="recommendation-body-proposal-dealer">
+                                <img class=".recommendation-body-proposal-dealer-avatar" src="icons/Dianne Russell.png">
+                                <p class="tips-maintip-trick-name">Dianne Russell</p>
+                            </div>
+                            <p class="tips-trick-text">The things we need to check when we want to buy a house</p>
+                            <i class="tips-trick-timer"></i>
+                            <p class="tips-trick-time">4 min read | 25 Apr 2021</p>
+                        </div>
                     </div>
-                </article>
+                    <div class="tips-trick">
+                        <img class="tips-trick-image" src="icons/Rectangle 22(1).png">
+                        <div class="tips-trick-info">
+                            <div class="recommendation-body-proposal-dealer">
+                                <img class="tips-maintip-trick-avatar" src="icons/Courtney Henry.png">
+                                <p class="tips-maintip-trick-name">Courtney Henry</p>
+                            </div>
+                            <p class="tips-trick-text">7 Ways to distinguish the quality of the house we want to buy</p>
+                            <i class="tips-trick-timer"></i>
+                            <p class="tips-trick-time">6 min read | 24 Apr 2021</p>
+                        </div>
+                    </div>
+                    <div class="tips-trick">
+                        <img class="tips-trick-image" src="icons/Rectangle 22(2).png">
+                        <div class="tips-trick-info">
+                            <div class="recommendation-body-proposal-dealer">
+                                <img class="tips-maintip-trick-avatar" src="icons/Darlene Robertson.png">
+                                <p class="tips-maintip-trick-name">Darlene Robertson</p>
+                            </div>
+                            <p class="tips-trick-text">The best way to know the quality of the house we want to buy</p>
+                            <i class="tips-trick-timer"></i>
+                            <p class="tips-trick-time">2 min read | 24 Apr 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <aside class="tips-maintip">
+                    <div class="tips-maintip-trick">
+                        <img class="tips-maintip-trick-image" src="icons/Rectangle 23.png">
+                        <div class="recommendation-body-proposal-dealer">
+                            <img class="tips-maintip-trick-avatar" src="icons/Cameron Williamson.png">
+                            <p class="tips-maintip-trick-name">Cameron Williamson</p>
+                        </div>
+                        <p class="tips-trick-text"><b>12 Things to know before buying a house</b></p>
+                        <p class="tips-trick-maintext">Want to buy a house but are unsure about what we should know,
+                            here I will try to explain what we should know and check when we want to buy a house</p>
+                        <i class="tips-trick-timer"></i>
+                        <p class="tips-trick-time">8 min read | 25 Apr 2021</p>
+                    </div>
+                </aside>
             </div>
         </section>
-
-        <footer class="footer">
-            <div class="footer_branding">
-                <img src="logo.png" alt="Hounter" class="footer_logo">
-                <img class="footer_frame" src="icons/49.png">
-                <p class="footer_description">We provide information about properties such as houses, villas and
-                    apartments to help people find their dream home.</p>
-                <div class="footer_socials">
-                    <a href="#" class="footer_social-link">Facebook</a>
-                    <a href="#" class="footer_social-link">Twitter</a>
-                    <a href="#" class="footer_social-link">Instagram</a>
+        <section class="newsletter">
+            <h3 class="newsletter-head">Subscribe For More Info<br>and update from Hounter</h3>
+            <div class="bunner-search newsletter-search">
+                <i class="bunner-search-icon fa-solid fa-envelope" style="color: #3B82F6;"></i>
+                <input class="banner-search-input" placeholder="Your email here" type="text">
+                <button class="banner-search-button">Subsribe Now</button>
+            </div>
+        </section>
+        <footer>
+            <div class="companyinfo info">
+                <div class="banner-head" id="footer-logo">
+                    <img class="logo" src="icons/logo.png" alt="Hounter">
+                    <h4 class="logo-text">Hounter</h4>
+                </div>
+                <p class="companyinfo-data">We provide information about properties such as houses, villas and
+                    apartments to help people find their dream home</p>
+                <div class="companyinfo-links">
+                    <a class="companyinfo-socials" href="facebook.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M12.3186 26V16.6154H9V13.2365H12.3186V10.3505C12.3186 8.08264 14.2789 6 18.7959 6C20.6247 6 21.9771 6.1311 21.9771 6.1311L21.8705 9.28642C21.8705 9.28642 20.4913 9.27638 18.9863 9.27638C17.3574 9.27638 17.0965 9.83768 17.0965 10.7693V13.2365H22L21.7866 16.6154H17.0965V26H12.3186Z"
+                                fill="#3C4563" />
+                        </svg>
+                    </a>
+                    <a class="companyinfo-socials" href="twitter.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M28 8.37575C27.1174 8.76628 26.157 9.04735 25.1676 9.15682C26.1948 8.53089 26.9639 7.54202 27.3308 6.37575C26.367 6.96388 25.3111 7.37629 24.2101 7.59469C23.7499 7.09003 23.1933 6.688 22.575 6.41364C21.9567 6.13929 21.2899 5.99849 20.6163 6.00001C17.8906 6.00001 15.6986 8.26628 15.6986 11.0473C15.6986 11.4379 15.7447 11.8284 15.8197 12.2042C11.7385 11.9852 8.09855 9.98522 5.67864 6.92309C5.23771 7.69562 5.00665 8.57524 5.00949 9.47042C5.00949 11.2219 5.87766 12.7663 7.20154 13.6746C6.42136 13.643 5.65944 13.4231 4.97777 13.0326V13.0947C4.97777 15.5473 6.66795 17.5799 8.92056 18.0473C8.49761 18.16 8.06251 18.2177 7.62553 18.2189C7.30537 18.2189 7.00252 18.1864 6.69679 18.142C7.31979 20.142 9.134 21.5947 11.2943 21.642C9.60413 23 7.48708 23.7988 5.18832 23.7988C4.77587 23.7988 4.39514 23.784 4 23.7367C6.18051 25.1716 8.7677 26 11.5539 26C20.599 26 25.5484 18.3136 25.5484 11.642C25.5484 11.4231 25.5484 11.2042 25.534 10.9852C26.4915 10.2663 27.3308 9.37575 28 8.37575Z"
+                                fill="#3C4563" />
+                        </svg>
+                    </a>
+                    <a class="companyinfo-socials" href="instagram.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path
+                                d="M15.9973 12.6652C14.1611 12.6652 12.6626 14.1638 12.6626 16C12.6626 17.8362 14.1611 19.3348 15.9973 19.3348C17.8335 19.3348 19.332 17.8362 19.332 16C19.332 14.1638 17.8335 12.6652 15.9973 12.6652ZM25.9989 16C25.9989 14.6191 26.0114 13.2506 25.9338 11.8722C25.8563 10.2711 25.4911 8.85017 24.3203 7.67938C23.147 6.50609 21.7286 6.14334 20.1275 6.06579C18.7466 5.98824 17.3782 6.00074 15.9998 6.00074C14.6189 6.00074 13.2505 5.98824 11.8721 6.06579C10.271 6.14334 8.85012 6.50859 7.67935 7.67938C6.50608 8.85267 6.14334 10.2711 6.06579 11.8722C5.98824 13.2531 6.00074 14.6216 6.00074 16C6.00074 17.3784 5.98824 18.7494 6.06579 20.1278C6.14334 21.7289 6.50858 23.1498 7.67935 24.3206C8.85262 25.4939 10.271 25.8567 11.8721 25.9342C13.253 26.0118 14.6214 25.9993 15.9998 25.9993C17.3807 25.9993 18.7491 26.0118 20.1275 25.9342C21.7286 25.8567 23.1495 25.4914 24.3203 24.3206C25.4936 23.1473 25.8563 21.7289 25.9338 20.1278C26.0139 18.7494 25.9989 17.3809 25.9989 16ZM15.9973 21.131C13.1579 21.131 10.8664 18.8394 10.8664 16C10.8664 13.1606 13.1579 10.869 15.9973 10.869C18.8367 10.869 21.1282 13.1606 21.1282 16C21.1282 18.8394 18.8367 21.131 15.9973 21.131ZM21.3383 11.8572C20.6754 11.8572 20.14 11.3218 20.14 10.6589C20.14 9.99594 20.6754 9.46058 21.3383 9.46058C22.0013 9.46058 22.5366 9.99594 22.5366 10.6589C22.5368 10.8163 22.5059 10.9722 22.4458 11.1177C22.3856 11.2632 22.2974 11.3954 22.1861 11.5067C22.0748 11.618 21.9426 11.7062 21.7971 11.7664C21.6516 11.8265 21.4957 11.8574 21.3383 11.8572Z"
+                                fill="#3C4563" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-            <div class="footer_links">
-                <div class="footer_column footer_column--property">
-                    <h4 class="footer_title">Property</h4>
-                    <ul class="footer_list">
-                        <li><a href="#" class="footer_item">House</a></li>
-                        <li><a href="#" class="footer_item">Apartment</a></li>
-                        <li><a href="#" class="footer_item">Villa</a></li>
-                    </ul>
-                </div>
-                <div class="footer_column footer_column--articles">
-                    <h4 class="footer_title">Article</h4>
-                    <ul class="footer_list">
-                        <li><a href="#" class="footer_item">New Article</a></li>
-                        <li><a href="#" class="footer_item">Popular Article</a></li>
-                        <li><a href="#" class="footer_item">Most Read</a></li>
-                        <li><a href="#" class="footer_item">Tips & Tricks</a></li>
-                    </ul>
-                </div>
-                <div class="footer_column footer_column--contact">
-                    <h4 class="footer_title">Contact</h4>
-                    <address>
-                        <p class="footer_contact-address">2464 Royal Ln. Mesa, New Jersey 45463</p>
-                        <p class="footer_contact-phone">(671) 555-0110</p>
-                        <p class="footer_contact-email">info@hounter.com</p>
-                    </address>
-                </div>
+            <div class="info">
+                <h5 class="info-title">Property</h5>
+                <a class="info-link info-text" href="">House</a>
+                <a class="info-link info-text" href="">Apartment</a>
+                <a class="info-link info-text" href="">Villa</a>
             </div>
+            <div class="info">
+                <h5 class="info-title">Article</h5>
+                <a class="info-link info-text" href="">New Article</a>
+                <a class="info-link info-text" href="">Popular Article</a>
+                <a class="info-link info-text" href="">Most Read</a>
+                <a class="info-link info-text" href="">Tips & Tricks</a>
+            </div>
+            <div class="info">
+                <h5 class="info-title">Contact</h5>
+                <p class="info-text">2464 Royal Ln. Mesa, New Jersey 45463</p>
+                <p class="info-text">(671) 555-0110 </p>
+                <p class="info-text">info@hounter.com</p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="660" height="442" viewBox="0 0 660 442" fill="none">
+                <g opacity="0.3" filter="url(#filter0_f_4_16)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M591.209 352.001C580.173 386.669 554.914 413.19 532.037 441.462C512.326 465.821 491.32 487.535 466.292 506.373C438.414 527.356 412.122 556.558 377.273 557.946C342.311 559.339 312.951 533.407 284.067 513.634C256.911 495.044 237.575 469.427 214.166 446.286C182.126 414.612 126.833 396.642 120.566 352.001C114.507 308.845 158.489 275.35 185.353 241.061C209.162 210.671 235.738 183.755 268.438 163.262C302.015 142.219 338.082 115.019 377.273 120.785C416.401 126.54 433.038 176.499 469.088 192.779C511.116 211.758 573.755 185.58 601.836 222.192C628.703 257.222 604.604 309.919 591.209 352.001Z"
+                        fill="#B9FF82" />
+                </g>
+                <defs>
+                    <filter id="filter0_f_4_16" x="0" y="-1.14441e-05" width="734" height="678"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur_4_16" />
+                    </filter>
+                </defs>
+            </svg>
         </footer>
-
-
-
 
     </main>
 
